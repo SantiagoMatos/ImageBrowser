@@ -19,6 +19,10 @@ public class ApplicationFrame extends JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+    
+    public ImageViewer getImageViewer(){
+        return imageViewer;
+    }
 
     private void createComponents() {
         this.add(createImagePanel());

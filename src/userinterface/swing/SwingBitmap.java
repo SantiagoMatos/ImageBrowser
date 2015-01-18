@@ -10,6 +10,10 @@ public class SwingBitmap implements Bitmap {
     public SwingBitmap(BufferedImage bufferedImage) {
         this.bufferedImage = bufferedImage;
     }
+    
+    public BufferedImage getBufferedImage(){
+        return bufferedImage;
+    }
 
     @Override
     public int getWidth() {
